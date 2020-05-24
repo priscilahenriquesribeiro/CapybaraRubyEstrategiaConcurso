@@ -70,46 +70,57 @@ Link: https://rubyinstaller.org/downloads/
 Link: http://teamcapybara.github.io/capybara/
 
 Qual é o objetivo da Aplicação:
+
 1.4.1 É uma biblioteca ruby
-É uma gem do ruby
-Ela é utilizada para aplicações web
-Ele utilizar o devkit do ruby
-Ele utiliza o seleniumwebdriver
-Ele é um framework de automaçaõ focado em aplicações web
-Ele é opensource
-Ele possui uma DSL que faz uma abstração do selenium ocasionando a facilidade em automação
-Como fazer a instalação
 
-Criar o arquivo Gemfile no diretório do Ruby através do "Visual studio code". Para facilitar é fundamental criar uma pasta que receba este arquivo
+1.4.2 É uma gem do ruby
 
-Acrescentar no arquivo as seguintes dependências:
+1.4.3 Ela é utilizada para aplicações web
 
-source 'https://rubygems.org'
+1.4.4 Ele utilizar o devkit do ruby
 
-gem 'capybara'
+1.4.5 Ele utiliza o seleniumwebdriver
 
-gem 'selenium-webdriver'
+1.4.6 Ele é um framework de automaçaõ focado em aplicações web
 
-gem 'rspec'
+1.4.7 Ele é opensource
 
-Abrir o CMDER, aplicar o seguinte comando "bundler install". Ele irá instalar todo as dependências que encontram-se no arquivo "Gemfile"
+1.4.8 Ele possui uma DSL que faz uma abstração do selenium ocasionando a facilidade em automação
 
-Criar o projeto "rspec" através do comando "rspec --init"
 
-Acrescentar no arquivo "spec_helper.rb" a linhas de comando que identifica a importação:
+Como fazer a instalação:
 
+1.4.1.1 Criar o arquivo Gemfile no diretório do Ruby através do "Visual studio code". Para facilitar é fundamental criar uma pasta que receba este arquivo
+
+1.4.1.2 Acrescentar no arquivo as seguintes dependências
+
+1.4.1.2.1 source 'https://rubygems.org'
+
+1.4.1.2.2 gem 'capybara'
+
+1.4.1.2.3 gem 'selenium-webdriver'
+
+1.4.1.2.4 gem 'rspec'
+
+1.4.1.2.5 Abrir o CMDER, aplicar o seguinte comando "bundler install". Ele irá instalar todo as dependências que encontram-se no arquivo "Gemfile"
+
+1.4.1.2.6 Criar o projeto "rspec" através do comando "rspec --init"
+
+
+1.4.1.2.7 Acrescentar no arquivo "spec_helper.rb" a linhas de comando que identifica a importação:
 require 'capybara'
-
 require 'capybara/rspec'
 
-realizar o downlad do chromedriver 👍 https://chromedriver.storage.googleapis.com/index.html cuja a versão seja entre 70 a 73
+1.4.1.2.8 realizar o downlad do chromedriver 👍 https://chromedriver.storage.googleapis.com/index.html cuja a versão seja entre 70 a 73
 
-realizar o download do firefoxdriver https://github.com/mozilla/geckodriver/releases (Observação: É fundamental ter o firefox instaldo na máquina)
+1.4.1.2.9 realizar o download do firefoxdriver https://github.com/mozilla/geckodriver/releases (Observação: É fundamental ter o firefox instaldo na máquina)
 
-Colocar na pasta "seleniumWebdriver"
+1.4.1.2.10 Colocar na pasta "seleniumWebdriver"
 
-Declarar a pastar no path do sistema
 
-Declarar no console "gem install ffi" porque sem essa dependência o projeto não funciona
+1.4.1.2.11 Declarar a pasta no path do sistema do windows 
 
-Para execuçao utilize o seguinte comando: rspec -fd
+1.4.1.2.12 Declarar no console "gem install ffi" porque sem essa dependência o projeto não funciona dentro do projeto de automação através do Cmder. 
+
+Para execuçao do projeto de automação utilize o seguinte comando: rspec -fd
+-------------------------------------------------------------------------------
