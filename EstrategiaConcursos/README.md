@@ -3,6 +3,7 @@
 Desafio: https://github.com/estrategiahq/desafio-qa-engineer
 
 Quais os primeiros passos para a automação
+---------------------------------------------------------------
 1- Primeiramente, saber qual framework de testes você vai usar (normalmente definido no início do projeto)
 
 2- Instalar e configurar a ferramenta e suas dependências (ex. Robot Framework + Libs + Webdrivers)
@@ -45,7 +46,8 @@ Abrir o CMDER
 Aplicar o seguinte comando "ruby --version"
 Aplicar o seguinte comando "ridk install" para que o devkit seja instalado
 Selecionar a opção (3)
-Aplicar o seguinte comando "gem install bundler", que tem como objetivo instalar todas as dependência que encontram-se no arquivo gemfile
+Aplicar o seguinte comando "gem install bundler", que tem como objetivo instalar todas as dependência que encontram-se no arquivo gemfile. Um outro conceito seria 
+ um pacote contendo um software e tudo o que precisa para operar em conjunto com algum hardware ou software adicional (por vezes adware).
 Aplicar o comando "bundler --version" para verificar a versão do bundler instalado
 Digitar o comando "gem env" com o objetivo de levantar todas as informações do arquivo env.
 1.4 Capybara
