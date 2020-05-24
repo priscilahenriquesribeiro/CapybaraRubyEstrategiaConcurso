@@ -44,22 +44,26 @@ C:\Users\Henriques\Documents\Tecnologia\Automaçaõ de Testes\CapybaraRuby\tools
 Link: https://rubyinstaller.org/downloads/
 
 1.3.2 Procedimentos
-# Utilizar a versao 2.5 superior
-Realizar a instalação
-Abrir o CMDER
-Aplicar o seguinte comando "ruby --version"
-Aplicar o seguinte comando "ridk install" para que o devkit seja instalado
-Selecionar a opção (3)
-Aplicar o seguinte comando "gem install bundler", que tem como objetivo instalar todas as dependência que encontram-se no arquivo gemfile. Um outro conceito seria 
- um pacote contendo um software e tudo o que precisa para operar em conjunto com algum hardware ou software adicional (por vezes adware).
-Aplicar o comando "bundler --version" para verificar a versão do bundler instalado
-Digitar o comando "gem env" com o objetivo de levantar todas as informações do arquivo env.
+
+1.3.2.1 Utilizar a versao 2.5 superior
+
+1.3.2.2 Realizar a instalação
+
+1.3.2.3 Abrir o CMDER
+
+1.3.2.4 Aplicar o seguinte comando "ruby --version"
+1.3.2.5 Aplicar o seguinte comando "ridk install" para que o devkit seja instalado
+1.3.2.6 Selecionar a opção (3)
+1.3.2.7 Aplicar o seguinte comando "gem install bundler", que tem como objetivo instalar todas as dependência que encontram-se no arquivo gemfile. Um outro conceito seria um pacote contendo um software e tudo o que precisa para operar em conjunto com algum hardware ou software adicional (por vezes adware).
+1.3.2.8 Aplicar o comando "bundler --version" para verificar a versão do bundler instalado
+1.3.2.9 Digitar o comando "gem env" com o objetivo de levantar todas as informações do arquivo env.
+
 1.4 Capybara
+======================================= 
 Link: http://teamcapybara.github.io/capybara/
 
 Qual é o objetivo da Aplicação:
-
-É uma biblioteca ruby
+1.4.1 É uma biblioteca ruby
 É uma gem do ruby
 Ela é utilizada para aplicações web
 Ele utilizar o devkit do ruby
