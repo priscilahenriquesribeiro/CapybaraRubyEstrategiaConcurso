@@ -11,7 +11,10 @@ Quais os primeiros passos para a automação
 3- Criar um projeto de testes (diretórios, subdiretórios, arquivos)
 
 Preparações
+---------------------------------------------------------------
+
 1.1 Visual studio code
+======================================= 
 Objetivo: É uma IDE utilizada para o desenvolvimento de software ou automaçao de teste
 
 Link: https://code.visualstudio.com/
@@ -23,6 +26,7 @@ Link: https://code.visualstudio.com/
 1.1.3 Hyper Term Theme
 
 1.2 CMDER
+======================================= 
 Objetivo: É um console completo que oferece diversos recursos para o desenvolvimento da automação como git, comandos UNIX
 
 Link: https://cmder.net/
@@ -34,13 +38,13 @@ C:\Users\Henriques\Documents\Tecnologia\Automaçaõ de Testes\CapybaraRuby\tools
 C:\Users\Henriques\Documents\Tecnologia\Automaçaõ de Testes\CapybaraRuby\tools\cmder\vendor\git-for-windows\usr\bin
 
 1.3 Ruby
+======================================= 
 1.3.1 Objetivo: A linguagem de programação que será utilizada ao longo do percurso.
 
 Link: https://rubyinstaller.org/downloads/
 
 1.3.2 Procedimentos
-
-Utilizar a versao 2.5 superior
+# Utilizar a versao 2.5 superior
 Realizar a instalação
 Abrir o CMDER
 Aplicar o seguinte comando "ruby --version"
