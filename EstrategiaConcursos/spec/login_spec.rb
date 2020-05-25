@@ -3,7 +3,7 @@ describe 'Login' do
     it 'Realizar o login com sucesso' do 
         #Acessar a home da estratégia: https://www.estrategiaconcursos.com.br/.
         visit 'https://www.estrategiaconcursos.com.br/'
-        page.find(:xpath,'//*[@id="b_home"]/header/div/div/div/div[1]/a').click
+        page.find(:xpath,'//*[@id="b_home"]/header/div/div/div/div[1]/a/div/span').click
         fill_in 'email' , with: 'bielorrusiaribeiro@gmail.com'
         fill_in 'senha' , with: 'Ph@1@2@3'
         click_button 'Entrar'
