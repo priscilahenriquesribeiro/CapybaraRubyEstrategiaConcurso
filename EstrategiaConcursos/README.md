@@ -54,7 +54,7 @@ Link: https://rubyinstaller.org/downloads/
 
 1.3.2.4 Aplicar o seguinte comando "ruby --version"
 
-1.3.2.5 Aplicar o seguinte comando "ridk install" para que o devkit seja instalado
+1.3.2.5 Aplicar o seguinte comando "rdik install" para que o devkit seja instalado
 
 1.3.2.6 Selecionar a opção (3)
 
