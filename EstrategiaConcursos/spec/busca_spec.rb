@@ -1,10 +1,16 @@
 describe 'validar o valor do curso a partir da busca por professor' do
 
-    it 'visitar a página' do 
+    it 'visitar a página principal' do 
         #Acessar a home da estratégia: https://www.estrategiaconcursos.com.br/.
         visit 'https://www.estrategiaconcursos.com.br/'
-        page.find(:xpath,'//*[@id="b_cursos"]/header/nav/div/div/div/a[3][@href]').click
+        #page.find(:xpath,'//*[@id="b_cursos"]/header/nav/div/div/div/a[3][@href]').click
     end 
+	
+	it 'Acessa a página de busca por professor' do   
+        page.find(:xpath,'//*[@id="b_home"]/header/nav/div/div/div/a[3]').click	
+		#visit 'https://www.estrategiaconcursos.com.br/cursos/professor/'      
+    end 
+
 
 
     it 'Buscar pela professoa Ena Loiola' do
